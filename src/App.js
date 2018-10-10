@@ -1,25 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+// import {Button, Card} from 'antd'
+import './style/common.less'
+// import './test.less';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        {/*<h1>标题</h1>*/}
+        {/*<Button type='primary'>我是按钮</Button>*/}
+          {/*<Card>*/}
+              {/*<Button>我是按钮</Button>*/}
+          {/*</Card>*/}
+          {this.props.children}
       </div>
     );
   }
