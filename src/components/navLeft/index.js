@@ -18,6 +18,11 @@ class NavLeft extends Component{
                     <MenuItem key='/home'>
                         <Link to='/admin/home'>首页</Link>
                     </MenuItem>
+                    <SubMenu title='订单管理'>
+                        <MenuItem key='/admin/order'>
+                            <Link to='/admin/order'>订单管理</Link>
+                        </MenuItem>
+                    </SubMenu>
                     <MenuItem key='secondPage'>
                         <Link to='/admin/secondPage'>第二页</Link>
                     </MenuItem>
